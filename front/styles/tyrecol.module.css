@@ -1,0 +1,22 @@
+.tyre__image {
+  width: 150px;
+  height: 230px;
+  align-self: center;
+}
+.tyre__col {
+  position: relative;
+  padding-bottom: 50px;
+}
+.tyre__type {
+  width: 80px;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  left: 0;
+}
+.card__buttons {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  right: 16px;
+}

@@ -1,0 +1,55 @@
+.signup__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.signup__form {
+  display: flex;
+  flex-direction: column;
+}
+.signup__items {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signup__image {
+  flex-basis: 40%;
+  background-image: url('../public/tyresAuth.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.signup__input {
+  border-radius: 30px;
+  flex-basis: 60%;
+  color: #474747;
+  border: none;
+  padding: 19px;
+
+  outline: none;
+}
+.signup__submit {
+  width: 100%;
+  color: #cecece;
+  background-color: #333333;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.signup__space {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signup__arrow {
+  transform: rotate(180deg);
+}

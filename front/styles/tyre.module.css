@@ -1,0 +1,12 @@
+.tyre__image {
+  width: 250px;
+}
+.hoverIcon {
+  cursor: pointer;
+}
+.icon {
+  visibility: hidden;
+}
+.hoverIcon:hover .icon {
+  visibility: visible;
+}

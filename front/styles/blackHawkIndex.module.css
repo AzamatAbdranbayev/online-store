@@ -1,0 +1,24 @@
+.blackwak__box {
+  background: #f3f3f3;
+}
+
+.blackwak__wrapper {
+  color: #fff;
+  position: relative;
+  padding: 5rem 0;
+  background-image: url('../public/blackhawk/tyre.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blackwak__opacity {
+  padding: 25px;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+}
+.blackwak__text {
+  color: #fff;
+  opacity: 1;
+}

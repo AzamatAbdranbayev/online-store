@@ -1,0 +1,14 @@
+.filter__wrapper {
+  padding: 20px;
+  margin: 0 0 25px 0;
+  background: url('../public/catalog.page/filter.png') no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.filter__button {
+  background: #1da2f2;
+  color: #fff;
+}
+.custom:checked {
+  background: #1da2f2;
+}
